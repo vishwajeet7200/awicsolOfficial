@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technocrats.tssofficial">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MedicalDetails"></activity>
+        <activity android:name=".activity.AndroProdDesc20" />
+        <activity android:name=".activity.AndroProdDesc19" />
+        <activity android:name=".activity.AndroProdDesc18" />
+        <activity android:name=".activity.AndroProdDesc17" />
+        <activity android:name=".activity.AndroProdDesc16" />
+        <activity android:name=".activity.AndroProdDesc15" />
+        <activity android:name=".activity.AndroProdDesc14" />
+        <activity android:name=".activity.AndroProdDesc13" />
+        <activity android:name=".activity.AndroProdDesc12" />
+        <activity android:name=".activity.AndroProdDesc11" />
+        <activity android:name=".activity.AndroProdDesc10" />
+        <activity android:name=".activity.AndroProdDesc9" />
+        <activity android:name=".activity.AndroProdDesc8" />
+        <activity android:name=".activity.AndroProdDesc7" />
+        <activity android:name=".activity.AndroProdDesc6" />
+        <activity android:name=".activity.AndroProdDesc5" />
+        <activity android:name=".activity.AndroProdDesc4" />
+        <activity android:name=".activity.AndroProdDesc3" />
+        <activity android:name=".activity.AndroProdDesc2" />
+        <activity android:name=".activity.AndroProdDesc1" />
+        <activity android:name=".activity.CustomActivity" />
+        <activity android:name=".activity.IosActivity" />
+        <activity android:name=".activity.WebActivity" />
+        <activity android:name=".activity.AndroidActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

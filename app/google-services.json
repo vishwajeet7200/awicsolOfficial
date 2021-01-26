@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "350972681489",
+    "project_id": "awicsol",
+    "storage_bucket": "awicsol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350972681489:android:872b427b724cd4ff7680b0",
+        "android_client_info": {
+          "package_name": "com.technocrats.awicsol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350972681489-67shkfug4uqrm8u8giccngjj55p0s3j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsl4d41M6tkHWU9HYHkEyByhXIXQPGPnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350972681489-67shkfug4uqrm8u8giccngjj55p0s3j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
