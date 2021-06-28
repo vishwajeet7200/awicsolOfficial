@@ -23,14 +23,17 @@
                 android:background="@drawable/gradient"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="140dp"
-                    android:layout_height="140dp"
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="150dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="21dp"
-                    android:backgroundTint="#fff"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
                     android:src="@drawable/profilepic"
-                    />
+                    app:civ_border_width="2dp"
+                    android:id="@+id/displayImg"
+                    app:civ_border_color="#fff"/>
 
                 <TextView
                     android:layout_marginTop="20dp"
@@ -39,9 +42,9 @@
                     android:layout_gravity="center"
                     android:text="User Name"
                     android:textColor="#FFF"
-                    android:textSize="18dp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
-                    android:id="@+id/name"/>
+                    android:id="@+id/textViewName"/>
 
 
 
@@ -69,27 +72,12 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/textViewEmail"
                     android:paddingLeft="20dp"
                     android:text="yogi.enjoyers22@gmail.com"/>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_marginTop="25dp"
-                android:paddingLeft="35dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:src="@drawable/ic_person_add"/>
-                <TextView
-                    android:textStyle="bold"
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="20dp"
-                    android:text="instagram.com/yogi_ph22"/>
-            </LinearLayout>
+
             <LinearLayout
                 android:layout_marginTop="25dp"
                 android:paddingLeft="35dp"
@@ -117,7 +105,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Edit"
+            android:text="Logout"
+            android:id="@+id/logOutBtn"
             android:padding="10dp"
             android:layout_marginBottom="20dp"
             />

@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.ChatFragment">
+    android:orientation="vertical"
+    tools:context=".fragments.ReviewFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addRev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="53dp"
+        android:src="@drawable/ic_baseline_add_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Chat Fragment"
-        android:textSize="22sp"
-        android:gravity="center"/>
+        android:layout_height="match_parent" />
 
-</RelativeLayout>
+
+</FrameLayout>

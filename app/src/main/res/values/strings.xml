@@ -2,4 +2,5 @@
     <string name="app_name">awicsol</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transition">transition_photo</string>
 </resources>

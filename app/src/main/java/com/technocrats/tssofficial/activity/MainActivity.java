@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.technocrats.tssofficial.R;
-import com.technocrats.tssofficial.fragments.ChatFragment;
+import com.technocrats.tssofficial.fragments.ReviewFragment;
 import com.technocrats.tssofficial.fragments.HomeFragment;
 import com.technocrats.tssofficial.fragments.ProfileFragment;
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                         select_fragment = new HomeFragment();
                         break;
                     case ID_CHAT:
-                        select_fragment = new ChatFragment();
+                        select_fragment = new ReviewFragment();
                         break;
                     case ID_PROFILE:
                         select_fragment = new ProfileFragment();
