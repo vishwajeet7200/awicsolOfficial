@@ -26,6 +26,7 @@ public class TrendingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        //just for commit
         view = inflater.inflate(R.layout.fragment_trending, container, false);
 
         List<Products> productsList = new ArrayList<>();
